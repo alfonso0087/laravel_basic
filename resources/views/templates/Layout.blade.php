@@ -23,6 +23,7 @@
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="/">Home </a>
           <a class="nav-item nav-link" href="/students">Mahasiswa</a>
+          <a class="nav-item nav-link" href="/login">Login</a>
         </div>
       </div>
     </div>

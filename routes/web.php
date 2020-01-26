@@ -11,16 +11,14 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-// use Illuminate\Routing\Route;
-
-Route::get('/', 'PagesController@index');
-
-Route::resource('/students', 'StudentsController');
+Route::get('/', function () {
+  return view('welcome');
+});
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/', 'PagesController@index');
+
+Route::resource('/students', 'StudentsController');
